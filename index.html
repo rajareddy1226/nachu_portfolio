@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nachu Raja Reddy | Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f0e1;
+      scroll-behavior: smooth;
+    }
+    section {
+      min-height: 100vh;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-bottom: 1px solid #222;
+    }
+    h1, h2, h3 {
+      text-transform: uppercase;
+      color: #f5f0e1;
+      margin-bottom: 20px;
+    }
+    .hero {
+      background: url('your-photo.jpg') center/cover no-repeat;
+      position: relative;
+    }
+    .hero h1 {
+      font-size: 5em;
+      color: rgba(255, 255, 255, 0.1);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .overlay-text {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+      font-size: 1.5em;
+    }
+    .nav-buttons button {
+      background: #f5f0e1;
+      color: #0d0d0d;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .icons img {
+      width: 40px;
+      margin: 5px;
+    }
+    .two-column {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      min-width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero" id="hero">
+  <h1>PORTFOLIO</h1>
+  <div class="overlay-text">Nachu Raja Reddy | Software Developer</div>
+</section>
+
+<!-- TABLE OF CONTENTS -->
+<section id="toc">
+  <h2>Table of Contents</h2>
+  <div class="nav-buttons">
+    <button onclick="location.href='#intro'">Introduction</button>
+    <button onclick="location.href='#education'">Education</button>
+    <button onclick="location.href='#projects'">Projects</button>
+    <button onclick="location.href='#skills'">Skills</button>
+    <button onclick="location.href='#certifications'">Certifications</button>
+    <button onclick="location.href='#leadership'">Leadership</button>
+    <button onclick="location.href='#contact'">Contact</button>
+  </div>
+</section>
+
+<!-- INTRODUCTION -->
+<section id="intro">
+  <h2>Introduction</h2>
+  <div class="icons">
+    <img src="icons/java.png" alt="Java" />
+    <img src="icons/python.png" alt="Python" />
+    <img src="icons/html.png" alt="HTML" />
+    <img src="icons/css.png" alt="CSS" />
+    <img src="icons/github.png" alt="GitHub" />
+    <img src="icons/vscode.png" alt="VS Code" />
+  </div>
+  <p>
+    Final-year B.Tech student with strong programming and frontend skills. Experienced in real-time projects using web technologies and machine learning algorithms. Actively seeking an entry-level role to contribute to meaningful software projects and grow as a professional.
+  </p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>2022–2026:</strong> St. Peter’s Engineering College - B.Tech in Computer Science</li>
+    <li><strong>2020–2022:</strong> Impulse Junior College – Intermediate (80%)</li>
+    <li><strong>2019–2020:</strong> Frobel’s High School – SSC (98%)</li>
+  </ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <h3>CampusEye: Real-Time Student Presence Detection</h3>
+  <p>
+    Built a real-time student monitoring model using Wi-Fi, GPS, and Bluetooth sensors. Applied machine learning (K-Means, Random Forest) for location tracking. Integrated sensor data into a responsive web-based dashboard.
+  </p>
+  <p><strong>Tech Stack:</strong> K-Means, Random Forest, Machine Learning, Web Dashboard</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Technical & Soft Skills</h2>
+  <div class="two-column">
+    <div class="column">
+      <h3>Technical Skills</h3>
+      <ul>
+        <li>Java (OOP, DSA)</li>
+        <li>Python (Basics, ML)</li>
+        <li>HTML, CSS</li>
+        <li>MySQL, Oracle</li>
+        <li>GitHub, VS Code</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Leadership</li>
+        <li>Problem Solving</li>
+        <li>Time Management</li>
+        <li>Adaptability</li>
+        <li>Critical Thinking</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>Java Certification – DataFlair (Nov 2024)</li>
+    <li>Python for Data Analysis – Coursera (Dec 2024)</li>
+    <li>ServiceNow – ServiceNow (June 2025)</li>
+    <li>AWS Architecture Simulation – Forage (July 2025)</li>
+    <li>Generative AI – LinkedIn Learning (Feb 2026)</li>
+    <li>Power BI – Microsoft (Mar 2023)</li>
+    <li>C++ Basics – Coursera (Oct 2024)</li>
+  </ul>
+</section>
+
+<!-- LEADERSHIP -->
+<section id="leadership">
+  <h2>Leadership</h2>
+  <ul>
+    <li><strong>NCC Captain (2018–2020):</strong> Led cadet drills, parades, and training activities.</li>
+    <li><strong>School Head (2019–2020):</strong> Oversaw student council and school-wide functions.</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Location:</strong> Hyderabad</p>
+  <p><strong>Email:</strong> <a href="mailto:nachurajareddy11@gmail.com">nachurajareddy11@gmail.com</a></p>
+  <p><strong>Phone:</strong> +91 7013659660</p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/rajareddy1226">github.com/rajareddy1226</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nachu-rajareddy">linkedin.com/in/nachu-rajareddy</a></p>
+</section>
+
+<!-- THANK YOU -->
+<section id="thankyou">
+  <h2>Thank You</h2>
+  <p>Thank you for visiting my portfolio. Let’s connect and build something great together!</p>
+</section>
+
+</body>
+</html>
